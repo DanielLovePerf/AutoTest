@@ -21,6 +21,7 @@ public class TestMethodsDemo {
         Assert.assertEquals("aaa","aaa");
     }
 
+    @Test
     public void logDemo(){
         Reporter.log("这是我们自己写的日志");
         throw new RuntimeException("这是我自己运行的异常");
