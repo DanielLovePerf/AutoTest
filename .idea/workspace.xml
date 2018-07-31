@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ab4418-13ed-400f-a041-b9254cf6b884" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter7/moco-runner-0.11.0-standalone.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter7/startup1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter7/startupGet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter7/startupPost.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter7/基本操作说明" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter/target/" />
@@ -76,8 +71,8 @@
       <file leaf-file-name="startupGet.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter7/startupGet.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="266">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -430,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532876051684</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge branch 'master' of github.com:danielyuan911/AutoTest&#10;&#10;# Conflicts:&#10;#&#9;test.txt">
+      <created>1533047674944</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1533047674944</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -467,7 +469,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -880,8 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter7/startupGet.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="266">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
