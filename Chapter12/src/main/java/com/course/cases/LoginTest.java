@@ -1,10 +1,10 @@
 package com.course.cases;
 
-import com.tester.model.InterfaceName;
-import com.tester.config.TestConfig;
-import com.tester.model.LoginCase;
-import com.tester.utils.ConfigFile;
-import com.tester.utils.DatabaseUtil;
+import com.course.config.TestConfig;
+import com.course.model.InterfaceName;
+import com.course.model.LoginCase;
+import com.course.utils.ConfigFile;
+import com.course.utils.DatabaseUtil;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
@@ -50,7 +50,7 @@ public class LoginTest {
 
     }
 
-    @Test(description = "用户登陆失败接口")
+    @Test(groups = "loginTrue",description = "用户登陆失败接口")
     public void loginFalse() throws IOException {
         SqlSession session = DatabaseUtil.getSqlSession();
         LoginCase loginCase = session.selectOne("loginCase",2);

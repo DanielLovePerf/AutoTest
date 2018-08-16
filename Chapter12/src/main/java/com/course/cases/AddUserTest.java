@@ -19,6 +19,7 @@ public class AddUserTest {
 
 
     @Test(dependsOnGroups = "loginTrue",description = "添加用户接口接口")
+//    @Test
     public void addUser() throws IOException, InterruptedException {
 
         SqlSession session = DatabaseUtil.getSqlSession();
