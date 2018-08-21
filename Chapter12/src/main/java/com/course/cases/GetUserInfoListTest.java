@@ -30,9 +30,6 @@ public class GetUserInfoListTest {
         System.out.println(TestConfig.getUserListUrl);
 
 
-
-
-
         //下边为写完接口的代码
         JSONArray resultJson = getJsonResult(getUserListCase);
         /**

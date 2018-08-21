@@ -12,20 +12,20 @@
                 </methods>
             </class>
             <class name="com.course.cases.AddUserTest">
-            <methods>
-            <include name="addUser"/>
-            </methods>
+                <methods>
+                     <include name="addUser"/>
+                </methods>
             </class>
             <class name="com.course.cases.GetUserInfoTest">
-            <methods>
-            <include name="getUserInfo"/>
-            </methods>
+                <methods>
+                    <include name="getUserInfo"/>
+                </methods>
             </class>
             <class name="com.course.cases.UpdateUserInfoTest">
-            <methods>
-            <include name="updateUserInfo"/>
-            <include name="deleteUser"/>
-            </methods>
+                <methods>
+                    <include name="updateUserInfo"/>
+                    <include name="deleteUser"/>
+                </methods>
             </class>
 
             <class name="com.course.cases.GetUserInfoListTest">

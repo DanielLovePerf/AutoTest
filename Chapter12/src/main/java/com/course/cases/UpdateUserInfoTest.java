@@ -32,7 +32,7 @@ public class UpdateUserInfoTest {
          * 下边这两行跟着测试的课讲
          */
         //获取更新后的结果
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         User user = session.selectOne(updateUserInfoCase.getExpected(),updateUserInfoCase);
         System.out.println(user.toString());
 
@@ -57,7 +57,7 @@ public class UpdateUserInfoTest {
         /**
          * 下边这两行跟着测试的课讲
          */
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         User user = session.selectOne(updateUserInfoCase.getExpected(),updateUserInfoCase);
         System.out.println(user.toString());
 
